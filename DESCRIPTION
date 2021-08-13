@@ -1,0 +1,22 @@
+Package: rdr
+Title: Personal Package for Russell Dinnage
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Russell",
+           family = "Dinnage",
+           role = c("aut", "cre"),
+           email = "r.dinnage@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Random useful stuff for me!
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    readr,
+    reprex,
+    rstudioapi,
+    usethis,
+    webshot,
+    yaml
